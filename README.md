@@ -81,3 +81,84 @@
   </footer>
 </body>
 </html>
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background: #f4f4f4;
+  line-height: 1.6;
+}
+
+.container {
+  width: 90%;
+  max-width: 800px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+header {
+  background: #2c3e50;
+  color: white;
+  padding: 60px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.8em;
+}
+
+header p {
+  margin: 10px 0 20px;
+}
+
+.button {
+  background: #e67e22;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.button:hover {
+  background: #d35400;
+}
+
+section {
+  margin-top: 30px;
+}
+
+section h2 {
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+a {
+  color: #2980b9;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background: #ecf0f1;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 0.9em;
+  color: #777;
+  margin-top: 40px;
+}
